@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Camera_potret_</title>
+    <link rel="stylesheet" href="./style/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <!-- Header icons -->
+            <div class="header-icons">
+                <button class="icon-btn" id="menuBtn">☰</button>
+                <button class="icon-btn" id="shareBtn">⤴</button>
+            </div>
+
+            <!-- Profile section -->
+            <div class="profile-section">
+                <img src="https://res.cloudinary.com/dxwd7n2nv/image/upload/v1771301750/IMG_8865_c190no.jpg" alt="Profile" class="profile-pic">
+                <h1 class="username">@camera_potret_</h1>
+                <p class="subtitle">Kalau kalian butuh sewa fotografer murah silahkan pilih paket di bawah</p>
+            </div>
+
+            <!-- Links section -->
+            <div class="package-section">
+                <div class="package-card">
+                    <div class="package-header">
+                        <span class="link-icon">1️⃣</span>
+                        <h2>Paket Satu</h2>
+                    </div>
+                    <p class="package-desc">Foto sepuasnya</p>
+                    <p class="package-price">Harga: Rp.20.000</p>
+                </div>
+
+                <form id="orderForm" class="order-form">
+                    <label for="customerName" class="form-label">Nama</label>
+                    <input type="text" id="customerName" class="form-input" placeholder="Masukkan nama Anda" required aria-required="true">
+
+                    <label for="note" class="form-label">Catatan</label>
+                    <input type="text" id="note" class="form-input" placeholder="Misal: lokasi atau waktu" required aria-required="true">
+
+                    <button type="button" id="sendBtn" class="send-btn">Kirim Pesanan ke WhatsApp</button>
+                </form>
+            </div>
+
+            <!-- Social icons with PNG logos -->
+            <div class="social-section">
+                <a href="https://www.instagram.com/camera_potret_/" class="social-icon" title="Instagram" type="submit">
+                    <img src="https://res.cloudinary.com/dxwd7n2nv/image/upload/v1771302651/instagram_g85kut.png" alt="Instagram" class="social-logo">
+                </a>
+                <a href="#" class="social-icon" title="TikTok">
+                    <img src="https://res.cloudinary.com/dxwd7n2nv/image/upload/v1771302650/tiktok_hilxqw.png" alt="TikTok" class="social-logo">
+                </a>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer-text">
+                Silahkan donasi untuk mendukung kami agar bisa terus berkarya dan memberikan pelayanan terbaik untuk kalian semua. Terima kasih atas dukungan kalian! 🙏
+            </div>
+        </div>
+    </div>
+
+    <script src="./script/main.js"></script>
+</body>
+</html>
