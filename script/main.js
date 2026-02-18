@@ -7,7 +7,7 @@ document.addEventListener('touchstart', function(e) {
 
 // Menu button functionality
 document.getElementById('menuBtn').addEventListener('click', function() {
-    alert('Menu clicked');
+    window.location.href = 'https://profilwebsite.vercel.app/';
 });
 
 // Share button functionality
